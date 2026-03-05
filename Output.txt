@@ -1,0 +1,48 @@
+Part A: Stack Test
+Stack size: 3
+Top element: 30
+Pop: 30
+Pop: 20
+Stack size after pops: 1
+Is stack empty? False
+
+Part B: Factorial Tests
+factorial( 0 ) = 1
+factorial( 1 ) = 1
+factorial( 5 ) = 120
+factorial( 10 ) = 3628800
+
+Part B: Fibonacci Tests
+
+Fibonacci n = 5
+Naive result: 5 Calls: 15
+Memo result: 5 Calls: 9
+
+Fibonacci n = 10
+Naive result: 55 Calls: 177
+Memo result: 55 Calls: 19
+
+Fibonacci n = 20
+Naive result: 6765 Calls: 21891
+Memo result: 6765 Calls: 39
+
+Fibonacci n = 30
+Naive result: 832040 Calls: 2692537
+Memo result: 832040 Calls: 59
+
+Part C: Tower of Hanoi (N = 3)
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+Total moves: 7
+
+Part D: Binary Search Tests
+Search 7 → Index: 3
+Search 1 → Index: 0
+Search 13 → Index: 6
+Search 2 → Index: -1
+Search in empty array → Index: -1
